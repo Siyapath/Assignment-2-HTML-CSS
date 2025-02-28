@@ -1,0 +1,145 @@
+body,
+h1,
+h2,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    line-height: 1.6;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header .nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+header .btn {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #f40612;
+}
+
+
+.hero {
+    background-image: url('https://st3.depositphotos.com/1007600/17449/i/450/depositphotos_174490352-stock-photo-light-abstract-gradient-motion-blurred.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #e50914;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #f40612;
+}
+
+
+.movie-posters {
+    padding: 50px 20px ;
+    background-color: #141414;
+    text-align: center;
+    
+
+.movie-posters h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.posters {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    overflow-x: scroll;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.posters img {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #141414;
+    color: #777;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+}
