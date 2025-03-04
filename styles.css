@@ -1,7 +1,4 @@
-body,
-h1,
-h2,
-p,
+body,h1,h2,p,
 button {
     margin: 0;
     padding: 0;
@@ -129,6 +126,14 @@ header .btn:hover {
     object-fit: cover;
 }
 
+.logo img{
+    width:100px;
+    height:40px;
+    border-radius: 8px;
+    object-fit: cover;
+    
+}
+
 
 footer {
     text-align: center;
@@ -143,3 +148,9 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+.movie-posters img:hover{
+    transform: scale(1.1);
+
+}
+
