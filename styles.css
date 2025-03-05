@@ -1,4 +1,7 @@
-body,h1,h2,p,
+body,
+h1,
+h2,
+p,
 button {
     margin: 0;
     padding: 0;
@@ -25,7 +28,7 @@ header {
 }
 
 header .logo {
-    font-size: 28px;
+    font-size: 29px;
     font-weight: bold;
 }
 
@@ -50,16 +53,19 @@ header .btn:hover {
 
 
 .hero {
-    background-image: url('https://st3.depositphotos.com/1007600/17449/i/450/depositphotos_174490352-stock-photo-light-abstract-gradient-motion-blurred.jpg');
+    background-image: url('https://picsum.photos/id/16/1200/300');
     background-size: cover;
     background-position: center;
-    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    color: white;
-    padding: 0 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+    height: 750px;
+    background-size: cover;
+
+
 }
 
 .hero-text {
@@ -67,7 +73,7 @@ header .btn:hover {
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 20px;
 }
 
@@ -80,14 +86,14 @@ header .btn:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 15px;
+    gap: 20px;
 }
 
 .cta-btn {
     padding: 15px 30px;
     background-color: #e50914;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -100,14 +106,15 @@ header .btn:hover {
 
 
 .movie-posters {
-    padding: 50px 20px ;
+    padding: 50px 20px;
     background-color: #141414;
     text-align: center;
-    
+
 }
+
 .movie-posters h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .posters {
@@ -126,12 +133,12 @@ header .btn:hover {
     object-fit: cover;
 }
 
-.logo img{
-    width:100px;
-    height:40px;
+.logo img {
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     object-fit: cover;
-    
+
 }
 
 
@@ -149,8 +156,7 @@ footer p {
     font-size: 14px;
 }
 
-.movie-posters img:hover{
+.movie-posters img:hover {
     transform: scale(1.1);
 
 }
-
